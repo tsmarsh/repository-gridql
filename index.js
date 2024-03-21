@@ -2,6 +2,19 @@ import {build_app} from "@gridql/server";
 
 import {parse} from "@gridql/server/lib/config.js";
 import fs from "fs";
+import {configure} from "log4js";
+
+
+configure({
+    appenders: {
+        out: {
+            type: 'stdout'
+        }
+    },
+    categories: {
+        default: { appenders: ['out'], level: 'info' }
+    }
+});
 
 let configPath = "./config/config.conf";
 if (fs.existsSync(configPath)) {

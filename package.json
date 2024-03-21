@@ -19,10 +19,11 @@
     }
   },
   "dependencies": {
-    "@gridql/server": "^3.7.0"
+    "@gridql/server": "^3.8.1",
+    "log4js": "^6.9.1"
   },
   "devDependencies": {
-    "@gridql/payload-generator": "^3.7.0",
+    "@gridql/payload-generator": "^3.8.1",
     "eslint": "^8.57.0",
     "mocha": "^10.2.0",
     "mongodb-memory-server": "^8.13.0",
