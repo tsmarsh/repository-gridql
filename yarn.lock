@@ -625,10 +625,10 @@
   dependencies:
     jsonwebtoken "^9.0.2"
 
-"@gridql/graph@^3.8.1":
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/@gridql/graph/-/graph-3.8.1.tgz#0e6b69aad2ffd5c156c4759c4059a28e8c2613a2"
-  integrity sha512-bOdKNARJIemHgkrS0JQXj9gG6widH/iF4yStJ0NFMIvyp72uzJwRyqpyNbj+CTKzSyauhJ2QiJRZZZfSf2B/OA==
+"@gridql/graph@^3.8.4":
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/@gridql/graph/-/graph-3.8.4.tgz#f22f2d381d28231af345894a5a3b6048090e80f0"
+  integrity sha512-Cc4/sawBW+XgqtYOgGbd5+nKTyPlO3VW2/59UeR9wBrW/YtJXYzXaI8zXPnhWHVb94CBl3GahdBL2mvBXyXV/w==
   dependencies:
     "@gridql/auth" "^3.8.1"
     graphql "^16.8.1"
@@ -641,33 +641,33 @@
     mongodb "^6.5.0"
     promise-retry "^2.0.1"
 
-"@gridql/payload-generator@^3.8.1":
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/@gridql/payload-generator/-/payload-generator-3.8.1.tgz#50aa053a40281c6f0f76fd33901e2fbab6bdbffe"
-  integrity sha512-5/iMBAiSBUkUXlz21+FAeAn1iyuERpXgIzpoyYUN63bKj4uQcjOaWs8XH79Q0zEBnG35AEm3WT8sHx8wC+Z/lA==
+"@gridql/payload-generator@^3.8.4":
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/@gridql/payload-generator/-/payload-generator-3.8.4.tgz#b6fcd3f60525c7e22158e32d7fa9a9d0bf734168"
+  integrity sha512-po+l7jJ+yi7nLgCNLTfYugxGw+FCivIRx3dweaDxxphU8/y8NV84OTkcjSwdf5dgBp0IcWFPwT6Ksv8N1AQ7CQ==
   dependencies:
     "@faker-js/faker" "^8.4.1"
     json-schema-faker "^0.5.6"
 
-"@gridql/payload-validator@^3.8.1":
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/@gridql/payload-validator/-/payload-validator-3.8.1.tgz#a29e9b13169721aa519d36b57941c33ceab2fb1e"
-  integrity sha512-cXl5xG2J4jX6/SU9e6o6jUXglWGMp6dK4b0N6wGd5cS3WG7mr0ZJrBBnsTotKsE/vgaqjPJc45hSrCZxj60CBA==
+"@gridql/payload-validator@^3.8.4":
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/@gridql/payload-validator/-/payload-validator-3.8.4.tgz#4476a413d24de6e29afa240344a28fc9f1e9c735"
+  integrity sha512-O3sNujvJ7qjWjyloSrLwZzqaZv896vHp9TuIgBtb2KGIuOMsiAK58LGSV9bHvgiRxjR2R0qD7+YwccrXS7ooPw==
   dependencies:
-    "@gridql/payload-generator" "^3.8.1"
+    "@gridql/payload-generator" "^3.8.4"
     jsonschema "^1.4.1"
 
-"@gridql/server@^3.8.1":
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/@gridql/server/-/server-3.8.1.tgz#f54726d1efc7f2cd50ebab89b01fec1cf3e35f4a"
-  integrity sha512-EnRFfylShymI7hmnsCfSa2eV+85jYyiBth31IOGreAT+mOuVwt5l7NNNfqEZLtrpk/YgxP68BkJsWT/y08NLOQ==
+"@gridql/server@^3.8.4":
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/@gridql/server/-/server-3.8.4.tgz#b5f4099af0cda5d5aaf79970c74ade256524e4eb"
+  integrity sha512-SoAcx9fim2BVFMJndTXN17HmxfK5TRc9AwKk3V6H61zisOk//OTwfcneKhADWRFDWnzCmhBy1fZ8BnJm5lzmAg==
   dependencies:
     "@apidevtools/swagger-parser" "^10.1.0"
     "@gridql/auth" "^3.8.1"
-    "@gridql/graph" "^3.8.1"
+    "@gridql/graph" "^3.8.4"
     "@gridql/mongo-connector" "^3.8.1"
-    "@gridql/payload-generator" "^3.8.1"
-    "@gridql/payload-validator" "^3.8.1"
+    "@gridql/payload-generator" "^3.8.4"
+    "@gridql/payload-validator" "^3.8.4"
     "@pushcorn/hocon-parser" "^1.2.9"
     cors "^2.8.5"
     express "^4.18.3"
@@ -2365,6 +2365,11 @@ https-proxy-agent@^5.0.1:
   dependencies:
     agent-base "6"
     debug "4"
+
+husky@^9.0.11:
+  version "9.0.11"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-9.0.11.tgz#fc91df4c756050de41b3e478b2158b87c1e79af9"
+  integrity sha512-AB6lFlbwwyIqMdHYhwPe+kjOC3Oc5P3nThEoW/AaO2BX3vJDjWPFxYLxokUZOo6RNX20He3AaT8sESs9NJcmEw==
 
 iconv-lite@0.4.24:
   version "0.4.24"

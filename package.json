@@ -11,25 +11,22 @@
     "start": "node index.js",
     "test": "mocha --exit",
     "format": "prettier --write index.js \"test/**/*.{js,jsx,mjs,ts,tsx,json,css,md}\"",
-    "lint": "eslint index.js \"test/**/*.{js,jsx,mjs,ts,tsx,json,css,md}\""
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint && npm run format"
-    }
+    "lint": "eslint index.js \"test/**/*.{js,jsx,mjs}\"",
+    "prepare": "husky"
   },
   "dependencies": {
-    "@gridql/server": "^3.8.1",
+    "@gridql/server": "^3.8.4",
     "log4js": "^6.9.1"
   },
   "devDependencies": {
-    "@gridql/payload-generator": "^3.8.1",
+    "@gridql/payload-generator": "^3.8.4",
+    "axios": "^1.6.8",
     "eslint": "^8.57.0",
+    "husky": "^9.0.11",
+    "js-yaml": "^4.1.0",
     "mocha": "^10.2.0",
     "mongodb-memory-server": "^8.13.0",
     "openapi-client-axios": "^7.2.0",
-    "axios": "^1.6.8",
-    "js-yaml": "^4.1.0",
     "prettier": "^3.2.5",
     "testcontainers": "^9.9.1"
   }

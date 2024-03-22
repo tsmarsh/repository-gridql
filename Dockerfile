@@ -1,4 +1,4 @@
-FROM oven/bun:debian
+FROM node:21-alpine
 
 WORKDIR /app
 
@@ -6,6 +6,7 @@ EXPOSE 3033
 
 COPY . .
 
-RUN bun install --production
+RUN yarn install --production
 
-CMD ["bun", "index.js"]
+# Start the application
+CMD ["node", "index"]

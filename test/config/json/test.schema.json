@@ -11,7 +11,7 @@
     },
     "test": {
       "type": "string",
-      "faker": "name.firstName"
+      "faker": "person.firstName"
     }
   },
   "required": ["id", "test"]

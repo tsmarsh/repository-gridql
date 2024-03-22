@@ -22,7 +22,7 @@ let schema;
 before(async function () {
   this.timeout(200000);
 
-  await new DockerComposeEnvironment(__dirname ).up();
+  await new DockerComposeEnvironment(__dirname).up();
 
   for (let restlette of ["test"]) {
     let rest = await fetch(

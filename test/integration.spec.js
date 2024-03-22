@@ -10,8 +10,8 @@ import { MongoMemoryServer } from "mongodb-memory-server";
 import { after, before, describe, it } from "mocha";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
-import {build_app} from "@gridql/server";
-import {parse} from "@gridql/server/lib/config.js";
+import { build_app } from "@gridql/server";
+import { parse } from "@gridql/server/lib/config.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
