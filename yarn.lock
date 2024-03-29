@@ -625,10 +625,10 @@
   dependencies:
     jsonwebtoken "^9.0.2"
 
-"@gridql/graph@^3.8.6":
-  version "3.8.6"
-  resolved "https://registry.yarnpkg.com/@gridql/graph/-/graph-3.8.6.tgz#267f1f7d580902dfb33c085d1b8ce4c17e0d5131"
-  integrity sha512-yhM1muTKZBhagaibFBqPlLedA3fbVT+hVeSflR1vCZoi8dcoymq/tOtcPlMZHvw4yex0ULS4lh5GFiHPdatk6w==
+"@gridql/graph@^3.8.7":
+  version "3.8.7"
+  resolved "https://registry.yarnpkg.com/@gridql/graph/-/graph-3.8.7.tgz#dd646057087b9f613f12476d39a0afcdd5a2c7e5"
+  integrity sha512-zK/2AyrZH8Nm9vaCcrbhnenylrXiuwbD/qs9gJIeReOfTz93GJeNnCxsppZd6yp4o/miEG4jiaf3b7PWCkHepg==
   dependencies:
     "@gridql/auth" "^3.8.1"
     graphql "^16.8.1"
@@ -657,14 +657,14 @@
     "@gridql/payload-generator" "^3.8.4"
     jsonschema "^1.4.1"
 
-"@gridql/server@^3.8.6":
-  version "3.8.6"
-  resolved "https://registry.yarnpkg.com/@gridql/server/-/server-3.8.6.tgz#910043d352867952da3122a101a66cc3b921b7d9"
-  integrity sha512-0gNs1WgjuZVtkPht+xoE5+gpYtYMKLvX33EjqE689cn9GGpjuwxE9dmAhf8/0+k+UnVyVm5yEtRYcx+rg5LQlA==
+"@gridql/server@^3.8.7":
+  version "3.8.7"
+  resolved "https://registry.yarnpkg.com/@gridql/server/-/server-3.8.7.tgz#f580ed0cd3d67b28ed8b14120d8cb8a89785cada"
+  integrity sha512-MSNUclxQBKeHv3r9SHAEF/ugk4gu+LupZvuFV8vpJz9oAonh7xeaiEAHFa9S+PsmLAiVAlOWIm0wO6UZAQHWtg==
   dependencies:
     "@apidevtools/swagger-parser" "^10.1.0"
     "@gridql/auth" "^3.8.1"
-    "@gridql/graph" "^3.8.6"
+    "@gridql/graph" "^3.8.7"
     "@gridql/mongo-connector" "^3.8.1"
     "@gridql/payload-generator" "^3.8.4"
     "@gridql/payload-validator" "^3.8.4"
